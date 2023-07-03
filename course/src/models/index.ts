@@ -4,7 +4,7 @@ export interface Lesson {
   subtitle: string
   video_url: string
   video_time: number
-  descriptionList: string[]
+  description_list: string[]
   disabled: boolean
 }
 
