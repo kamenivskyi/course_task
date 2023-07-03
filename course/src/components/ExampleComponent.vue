@@ -1,7 +1,5 @@
 <template>
-  <div>
-    Example
-  </div>
+  <div>Example</div>
 </template>
 
 <script setup lang="ts">
@@ -16,5 +14,4 @@
 // const props = withDefaults(defineProps<Props>(), {
 //   todos: () => [],
 // });
-
 </script>

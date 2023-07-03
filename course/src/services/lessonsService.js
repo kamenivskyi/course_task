@@ -6,12 +6,12 @@ export const lessonsService = {
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve(mockData);
-      }, time)
-    })
+      }, time);
+    });
   },
   async getLessons() {
     const data = await this.getData(lessons, 1000);
 
     return data.map(transformService.transformLesson);
-  }
+  },
 };
