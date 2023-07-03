@@ -1,6 +1,7 @@
 <template>
   <div class="text-h5">
-    Episode #{{ store.selectedLesson?.id }}
+    Episode #{{ store.selectedLesson?.id }}:
+    {{ store.selectedLesson?.title }}
   </div>
 </template>
 

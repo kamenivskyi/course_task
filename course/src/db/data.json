@@ -3,7 +3,7 @@
     "id": 1,
     "title": "COSTA RICA",
     "subtitle": "subtitle 1",
-    "video_url": "https://www.youtube.com/embed/LXb3EKWsInQ",
+    "video_url": "LXb3EKWsInQ",
     "video_time": 60,
     "descriptionList": [
       "Costa rica test description 1",
@@ -15,7 +15,7 @@
     "id": 2,
     "title": "Sony 4K Demo: Another World",
     "subtitle": "subtitle 2",
-    "video_url": "https://www.youtube.com/embed/xcJtL7QggTI",
+    "video_url": "xcJtL7QggTI",
     "video_time": 60,
     "descriptionList": [
       "lorem ipsum dolor sit amet 1",
@@ -27,7 +27,7 @@
     "id": 3,
     "title": "Wonderful 4K HDR 120FPS Dolby Vision",
     "subtitle": "subtitle 3",
-    "video_url": "https://www.youtube.com/embed/zo9dJFo8H8g",
+    "video_url": "zo9dJFo8H8g",
     "video_time": 60,
     "descriptionList": [
       "lorem ipsum dolor sit amet 1",
@@ -39,7 +39,7 @@
     "id": 4,
     "title": "Real 4K HDR 60fps: LG Jazz HDR UHD",
     "subtitle": "subtitle 4",
-    "video_url": "https://www.youtube.com/embed/mkggXE5e2yk",
+    "video_url": "mkggXE5e2yk",
     "video_time": 60,
     "descriptionList": [
       "lorem ipsum dolor sit amet 1",
@@ -51,7 +51,7 @@
     "id": 5,
     "title": "Sony 4K Demo: Another World",
     "subtitle": "subtitle 5",
-    "video_url": "https://www.youtube.com/embed/xcJtL7QggTI",
+    "video_url": "xcJtL7QggTI",
     "video_time": 60,
     "descriptionList": [
       "lorem ipsum dolor sit amet 1",
@@ -63,7 +63,7 @@
     "id": 6,
     "title": "Transient 2 - 4K, UHD, 1000FPS",
     "subtitle": "subtitle 2",
-    "video_url": "https://www.youtube.com/embed/tq1mxZZIuIY",
+    "video_url": "tq1mxZZIuIY",
     "video_time": 60,
     "descriptionList": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
