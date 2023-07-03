@@ -5,5 +5,6 @@ export interface Lesson {
   video_url: string
   video_time: number
   descriptionList: string[]
+  disabled: boolean
 }
 

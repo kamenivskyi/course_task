@@ -4,13 +4,14 @@
     v-model="tab"
     vertical
   >
-    <q-tab 
-      v-for="item in store.list" 
-      :name="item.id" 
-      :label="item.title" 
-      :key="item.id" 
-      @click="onTabClick(item.id)" 
-    />
+  <q-tab 
+    v-for="item in store.list"
+    :name="item.id"
+    :label="item.title"
+    :key="item.id"
+    :disable="item.disabled"
+    @click="onTabClick(item.id)" 
+  />
   </q-tabs>
 </template>
 
