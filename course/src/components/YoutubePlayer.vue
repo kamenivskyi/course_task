@@ -17,9 +17,7 @@
   watch(() => store.selectedLesson, (newValue) => {
     if (newValue && newValue.video_url) { 
       nextTick(() => {
-        setTimeout(() => {
-          initPlayer();
-        }, 100);
+        initPlayer();
       });
     }
   }, { immediate: true, })
