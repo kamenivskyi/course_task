@@ -22,6 +22,6 @@ import { useLessonsStore } from '../stores/lessons';
 const store = useLessonsStore();
 
 onMounted(() => {
-  store.fetchLessons(); 
-})
+  store.fetchLessons();
+});
 </script>

@@ -5,7 +5,12 @@
       <div v-if="hasDescription">
         <h2 class="text-h5">Description</h2>
 
-        <p v-for="(text, idx) in store.selectedLesson.description_list" :key="text">{{ idx + 1 }}. {{ text }}</p>
+        <p
+          v-for="(text, idx) in store.selectedLesson.description_list"
+          :key="text"
+        >
+          {{ idx + 1 }}. {{ text }}
+        </p>
       </div>
     </div>
   </div>
@@ -18,7 +23,8 @@ import YoutubePlayer from '../YoutubePlayer.vue';
 
 const store = useLessonsStore();
 const hasDescription = computed(
-  () => store.selectedLesson?.description_list && store.selectedLesson?.description_list.length > 0
+  () =>
+    store.selectedLesson?.description_list &&
+    store.selectedLesson?.description_list.length > 0
 );
-
 </script>
