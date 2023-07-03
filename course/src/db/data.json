@@ -5,7 +5,7 @@
     "subtitle": "subtitle 1",
     "video_url": "RH_V2rtFqYM",
     "video_time": 1,
-    "descriptionList": [
+    "description_list": [
       "Costa rica test description 1",
       "Costa rica test description 2",
       "Costa rica test description 3"
@@ -17,7 +17,7 @@
     "subtitle": "subtitle 2",
     "video_url": "xcJtL7QggTI",
     "video_time": 3,
-    "descriptionList": [
+    "description_list": [
       "lorem ipsum dolor sit amet 1",
       "lorem ipsum dolor sit amet 2",
       "lorem ipsum dolor sit amet 3"
@@ -29,7 +29,7 @@
     "subtitle": "subtitle 3",
     "video_url": "zo9dJFo8H8g",
     "video_time": 6,
-    "descriptionList": [
+    "description_list": [
       "lorem ipsum dolor sit amet 1",
       "lorem ipsum dolor sit amet 2",
       "lorem ipsum dolor sit amet 3"
@@ -41,7 +41,7 @@
     "subtitle": "subtitle 4",
     "video_url": "LXb3EKWsInQ",
     "video_time": 2.5,
-    "descriptionList": [
+    "description_list": [
       "lorem ipsum dolor sit amet 1",
       "lorem ipsum dolor sit amet 2",
       "lorem ipsum dolor sit amet 3"
@@ -53,7 +53,7 @@
     "subtitle": "subtitle 5",
     "video_url": "tq1mxZZIuIY",
     "video_time": 3.3,
-    "descriptionList": [
+    "description_list": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
       "incididunt ut labore et dolore magna aliqua. ",
       "laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",
