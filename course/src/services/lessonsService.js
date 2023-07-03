@@ -1,7 +1,6 @@
 import lessons from '../db/data.json';
 
 export const lessonsService = {
-  // eslint-ingore
   getData(mockData, time = 0) {
     return new Promise((resolve) => {
       setTimeout(() => {

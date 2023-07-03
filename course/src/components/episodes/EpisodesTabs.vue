@@ -12,7 +12,6 @@
       @click="onTabClick(item.id)" 
     />
   </q-tabs>
-  {{ store.selectedLesson }}
 </template>
 
 <script setup lang="ts">

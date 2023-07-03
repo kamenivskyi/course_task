@@ -4,6 +4,6 @@ export interface Lesson {
   subtitle: string
   video_url: string
   video_time: number
-  description: string
+  descriptionList: string[]
 }
 
