@@ -49,20 +49,8 @@
   },
   {
     "id": 5,
-    "title": "Sony 4K Demo: Another World",
-    "subtitle": "subtitle 5",
-    "video_url": "xcJtL7QggTI",
-    "video_time": 60,
-    "descriptionList": [
-      "lorem ipsum dolor sit amet 1",
-      "lorem ipsum dolor sit amet 2",
-      "lorem ipsum dolor sit amet 3"
-    ]
-  },
-  {
-    "id": 6,
     "title": "Transient 2 - 4K, UHD, 1000FPS",
-    "subtitle": "subtitle 2",
+    "subtitle": "subtitle 5",
     "video_url": "tq1mxZZIuIY",
     "video_time": 60,
     "descriptionList": [

@@ -5,7 +5,7 @@
 <script setup lang="ts">
   import YouTubePlayer from 'youtube-player';
   import { useLessonsStore } from 'src/stores/lessons';
-  import { computed, onMounted, watch } from 'vue';
+  import { nextTick, onMounted, watch } from 'vue';
 
   let player;
 
@@ -16,9 +16,11 @@
 
   watch(() => store.selectedLesson, (newValue) => {
     if (newValue && newValue.video_url) { 
-      setTimeout(() => {
-        initPlayer();
-      }, 100);
+      nextTick(() => {
+        setTimeout(() => {
+          initPlayer();
+        }, 100);
+      });
     }
   }, { immediate: true, })
 
@@ -42,9 +44,9 @@ function initPlayer() {
 
 function onPlayerStateChange(event) {
   if (event.data === IS_PLAYING_CODE) {
-    console.log('Користувач натиснув кнопку "Відтворити"');
+    console.log('Click play');
   } else if (event.data === IS_PAUSED_CODE) {
-    console.log('Користувач натиснув кнопку "Зупинити"');
+    console.log('Click pause');
   }
 }
 </script>

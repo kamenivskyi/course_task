@@ -14,7 +14,7 @@ export const useLessonsStore = defineStore('lessons', {
   actions: {
     async fetchLessons() {
       try {
-        const lessons = await lessonsService.getLessons();
+        const lessons = await lessonsService.getLessons() as Lesson[];
         console.log('fetched: ', lessons);
   
         this.data = lessons;
