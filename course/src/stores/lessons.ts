@@ -14,8 +14,7 @@ export const useLessonsStore = defineStore('lessons', {
   actions: {
     async fetchLessons() {
       try {
-        const lessons = await lessonsService.getLessons();
-        console.log('fetched: ', lessons);
+        const lessons = await lessonsService.getLessons() as Lesson[];
   
         this.data = lessons;
       } catch (error) {
@@ -24,6 +23,17 @@ export const useLessonsStore = defineStore('lessons', {
     },
     selectLesson(id: number) {
       this.selected = id;
+    },
+
+    enableLessonByLatesEnabled(id: number) {
+      const lastItemIdx = this.data.findIndex((el) => el.id === id);
+
+      if (lastItemIdx + 1 <= this.data.length) {
+        this.data = this.data.map((el, idx) => idx === lastItemIdx + 1 
+          ? { ...el, disabled: false } 
+          : el
+        );
+      }
     }
     
   },

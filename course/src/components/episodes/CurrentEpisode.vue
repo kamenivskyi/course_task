@@ -1,7 +1,12 @@
 <template>
   <div class="text-h5">
-    Episode 1
+    Episode #{{ store.selectedLesson?.id }}:
+    {{ store.selectedLesson?.title }}
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  import { useLessonsStore } from 'src/stores/lessons';
+
+  const store = useLessonsStore();
+</script>
