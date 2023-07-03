@@ -1,9 +1,13 @@
 <template>
-  <div>
+  <div class="q-pa-sm">
     <CurrentEpisode />
     <q-page class="row">
-      <EpisodeDescription />
-      <EpisodesTabs />
+      <div class="col">
+        <EpisodeDescription />
+      </div>
+      <div class="col">
+        <EpisodesTabs />
+      </div>
     </q-page>
   </div>
 </template>
